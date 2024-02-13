@@ -32,14 +32,30 @@ li a:hover {
 
 }
 
-
-.box {
+.main-Container {
     background-color: royalblue;
+    text-align: center;
     border-color: silver;
-    margin-left: 44%;
-    margin-top: 0.5in;
-    max-width: 2in;
-    max-height: 0.5in;
+}
+
+.main-title {
+    background-color: rosybrown;
+    text-align: center;
+}
+
+.item-container {
+    background-color: red;
+    text-align: center;
+}
+
+.item-title {
+    background-color: purple;
+    text-align: center;
+}
+
+.item-content {
+    background-color: seagreen;
+    text-align: center;
 }
 
 .BigFont {
@@ -64,4 +80,8 @@ li a:hover {
     align-items: center;
 
     list-style-type: none;
+}
+
+.hidden {
+    display: none !important; 
 }
