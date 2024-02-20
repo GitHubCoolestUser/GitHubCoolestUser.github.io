@@ -76,6 +76,7 @@ li a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    max-width: 5in;
 }
 
 .flex-nav {
@@ -113,4 +114,12 @@ li a:hover {
 
 .padding-top {
     padding: 12px;
+}
+
+.dropDown {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    text-decoration: none;
+    
 }
