@@ -5,7 +5,10 @@
 }
 
 body {
-    background-image: url('/assets/walter_retry_03.png');
+    background-image: url('/assets/background_01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 h1 {
@@ -18,14 +21,14 @@ li {
     margin: 0;
     padding: 0;
     
-    background-color:silver;
+    background-color: #50C878;
 }
 
 
 
 li a {
     display: block;
-    color:teal;
+    color:gold;
     text-align: center;
     padding:  15px;
     text-decoration: none;
@@ -33,7 +36,8 @@ li a {
 }
 
 li a:hover {
-    background-color: wheat;
+    text-decoration: underline;
+    text-decoration-color: gold;
 }
 
 .main-container {
@@ -43,8 +47,12 @@ li a:hover {
 }
 
 .main-title {
-  /*  background-color: rosybrown; */
+    background-color: #50C878; 
     text-align: center;
+    width: 3in;
+    margin: auto;
+    margin-top: 5px;
+    color: gold;
 }
 
 .item-container {
@@ -81,9 +89,17 @@ li a:hover {
 
 .flex-nav {
     display: flex;
+    /*
     justify-content: space-around;
     justify-content: space-evenly;
-    background-color: skyblue;
+    */
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 6px;
+    margin-top: 5px;
+    background-color: teal;
+    width: 3in; 
+    height: 0.65in;
 }
 
 .hidden {
