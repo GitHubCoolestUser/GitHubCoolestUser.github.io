@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=FXGUITemplate
+comment0.text=\r\n\ Use\ this\ template\ to\ create\ Apps\ with\ Graphical\ User\ Interfaces.\r\n\ \r\n\ @author\ Ben\ Callaghan\r\n
+comment1.params=e
+comment1.target=void\ changeColour(javafx.event.ActionEvent)
+comment2.params=stage
+comment2.target=void\ start(javafx.stage.Stage)
+comment2.text=\r\n\ This\ is\ where\ you\ create\ your\ components\ and\ the\ model\ and\ add\ event\r\n\ handlers.\r\n\r\n\ @param\ stage\ The\ main\ stage\r\n\ @throws\ Exception\r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\r\n\ Make\ no\ changes\ here.\r\n\r\n\ @param\ args\ unused\r\n
+numComments=4

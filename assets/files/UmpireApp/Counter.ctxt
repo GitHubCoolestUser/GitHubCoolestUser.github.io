@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Counter
+comment0.text=\r\n\ Creates\ a\ simple\ counter\ that\ can\ count\ up\ and\ reset.\r\n\r\n\ @author\ (Dave,\ Ben)\r\n\ @version\ (v1.01)\r\n
+comment1.params=
+comment1.target=Counter()
+comment1.text=\ \r\n\r\n\ It\ is\ a\ constructor\ for\ the\ Counte\ class.\ \r\n\r\n
+comment2.params=
+comment2.target=void\ increment()
+comment2.text=\ \r\n\r\n\ Increment\ the\ count\ var.\r\n\r\n
+comment3.params=
+comment3.target=void\ reset()
+comment3.text=\ \r\n\r\n\ Resets\ the\ count\ var.\r\n\r\n
+comment4.params=count
+comment4.target=void\ setCount(int)
+comment4.text=\ \r\n\r\n\ Sets\ the\ count\ var.\r\n\r\n\ @param\ count\ \ the\ count.\ \r\n
+comment5.params=
+comment5.target=int\ getCount()
+comment5.text=\ \r\n\r\n\ returns\ the\ count\ var\r\n\r\n\ @return\ the\ count\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ \r\n\r\n\ toString\ returns\ the\ count\ value\ in\ a\ string.format.\r\n\r\n\ @return\ String\r\n
+numComments=7

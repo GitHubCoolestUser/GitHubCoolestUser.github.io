@@ -57,11 +57,14 @@ li a:hover {
     margin: auto;
     margin-top: 5px;
     color: gold;
+    background: orange;
 }
 
 .item-container {
     
     text-align: center;
+    /*background-color: purple; */
+    
     
 }
 
@@ -72,8 +75,13 @@ li a:hover {
 }
 
 .item-content {
-   /* background-color: seagreen; */
+    /*background-color: #50C878; */
     text-align: center;
+    /*border: 2px solid gold;*/
+    border-radius: 5px, 5px, 5px, 5px;
+    color: gold;
+    padding: 3px;
+    margin: 5px;
 }
 
 .BigFont {
@@ -93,12 +101,17 @@ li a:hover {
     max-width: 5in;
 }
 
+.aImg {
+    display: block;
+    padding: 1px;
+    margin: auto;
+    width: 1.5in;
+    margin-bottom: 10px;
+    
+}
+
 .flex-nav {
     display: flex;
-    /*
-    justify-content: space-around;
-    justify-content: space-evenly;
-    */
     justify-content: space-evenly;
     margin: auto;
     padding: 6px;
@@ -130,17 +143,28 @@ li a:hover {
 .account-link{
     display: flex;
     position: absolute;
-    bottom: 5px;
+    position: static;
+    bottom: 0;
     left: 5px;
     background-color: #50C878; 
     border: 5px groove black;
     border-radius: 5px, 5px, 5px, 5px;
     color: gold;
+    text-align: center;
+    position: sticky;
+}
+
+.btn {
+    background-color: #50C878;
+    border: 3px solid gold;
+    color: gold;
+    margin: auto;
+    margin-top: 10px;
+    
 }
 
 .padding-top {
-    padding: 12px;
-    
+    padding-top: 18px;
 }
 
 .dropDown a{
