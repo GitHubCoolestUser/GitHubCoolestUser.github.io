@@ -143,15 +143,12 @@ li a:hover {
 .account-link{
     display: flex;
     position: absolute;
-    position: static;
-    bottom: 0;
-    left: 5px;
+    margin-top: 0.5;
     background-color: #50C878; 
     border: 5px groove black;
     border-radius: 5px, 5px, 5px, 5px;
     color: gold;
-    text-align: center;
-    position: sticky;
+    text-align: center; 
 }
 
 .btn {
