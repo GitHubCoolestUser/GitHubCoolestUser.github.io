@@ -1,197 +1,193 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-image: url('/assets/background_01.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
-h1 {
-    font-size: 0.5in;
-    padding: 5px;
-}
-
-li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-    background-color: #50C878;
-}
-
-
-
-li a {
-    display: block;
-    color:gold;
-    text-align: center;
-    padding:  15px;
-    text-decoration: none;
-    margin: 0;
-    border: gold solid 4px;
-}
-
-li a:hover {
-    text-decoration: underline;
-    text-decoration-color: gold;
-}
-
-.main-container { 
-    text-align: center;
-    border: gold solid 4px;
-    margin: auto;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    width: 8.1in;
-    background-color: teal;
-}
-
-.main-title {
-    text-align: center;
-    width: 3in;
-    margin: auto;
-    margin-top: 5px;
-    color: gold;
-    background: orange;
-}
-
-.item-container {
-    
-    text-align: center;
-    /*background-color: purple; */
-    
-    
-}
-
-.item-title {
-    /*background-color: purple; */
-    text-align: center;
-    color: gold;
-}
-
-.item-content {
-    /*background-color: #50C878; */
-    text-align: center;
-    /*border: 2px solid gold;*/
-    border-radius: 5px, 5px, 5px, 5px;
-    color: gold;
-    padding: 3px;
-    margin: 5px;
-}
-
-.BigFont {
-    font-size: 3em;
-}
-
-.centerTxt {
-    text-align: center;
-}
-
-.centerImg {
-    display: block;
-    padding: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    max-width: 5in;
-}
-
-.aImg {
-    display: block;
-    padding: 1px;
-    margin: auto;
-    width: 1.5in;
-    margin-bottom: 10px;
-    
-}
-
-.flex-nav {
-    display: flex;
-    justify-content: space-evenly;
-    margin: auto;
-    padding: 6px;
-    margin-top: 5px;
-    background-color: null;
-    background-repeat: no-repeat;
-    width: 3in; 
-    height: 0.65in;
-    
-}
-
-.hidden {
-    display: none !important; 
-}
-
-.p-item {
-    display: flex;
-    padding: 5px;
-    text-align: center;
-    margin: auto;
-    background-color: seagreen;
-    border: 5px dotted black;
-    border-radius: 5px, 5px, 5px, 5px;
-    color: gold;
-    max-width: 3in;
-    max-height: 3in;
-}
-
-.account-link{
-    display: flex;
-    position: absolute;
-    margin-top: 0.5;
-    background-color: #50C878; 
-    border: 5px groove black;
-    border-radius: 5px, 5px, 5px, 5px;
-    color: gold;
-    text-align: center; 
-}
-
-.btn {
-    background-color: #50C878;
-    border: 3px solid gold;
-    color: gold;
-    margin: auto;
-    margin-top: 10px;
-    
-}
-
-.padding-top {
-    padding-top: 18px;
-}
-
-.dropDown a{
-    display: flex;
-    justify-content: space-evenly;
-    justify-content: space-around;
-    margin: auto;
-    text-decoration: none;
-    color: gold;
-    border: gold solid  4px;
-    width: 3in;
-    background-color: #50c878;
-}
-
-.dropDown a:hover{
-    text-decoration: underline;
-}
-
-.animation {
-    font-family:arial black;
-    font-size: 3em;
-    background-image: 
-      linear-gradient(to right, gold, #50C878, orange, gold); 
-    -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;  
-    animation: rainbow-animation 85s linear infinite;
-  }
-
-  @keyframes rainbow-animation {
-    to {
-        background-position: 4500vh;
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
     }
-}
+    
+    body {
+        background-image: url('/assets/background_01.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    h1 {
+        font-size: 0.5in;
+        padding: 5px;
+    }
+    
+    li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #50C878;
+    }
+    
+    a {
+        display: block;
+        color: gold;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+        margin: 0;
+        border: gold solid 4px;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        text-decoration-color: gold;
+    }
+    
+    .main-container {
+        text-align: center;
+        border: gold solid 4px;
+        margin: auto;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        width: 7.5in;
+        background-color: teal;
+    }
+    
+    .main-title {
+        text-align: center;
+        width: 3in;
+        margin: auto;
+        margin-top: 5px;
+        color: gold;
+        background: orange;
+    }
+    
+    .item-container {
+        text-align: center;
+        /*background-color: purple; */
+    }
+    
+    .item-title {
+        text-align: center;
+        color: gold;
+    }
+    
+    .item-content {
+        /*background-color: #50C878; */
+        text-align: center;
+        /*border: 2px solid gold;*/
+        border-radius: 5px, 5px, 5px, 5px;
+        color: gold;
+        padding: 3px;
+        margin: 5px;
+    }
+    
+    .BigFont {
+        font-size: 3em;
+    }
+    
+    .centerTxt {
+        text-align: center;
+    }
+    
+    .centerImg {
+        display: block;
+        padding: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        max-width: 5in;
+    }
+    
+    .aImg {
+        display: block;
+        padding: 1px;
+        margin: auto;
+        width: 1.5in;
+        margin-bottom: 10px;
+    }
+    
+    .flex-nav {
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        padding: 6px;
+        margin-top: 5px;
+        background-color: null;
+        background-repeat: no-repeat;
+        width: 3in;
+        height: 0.65in;
+        color: gold;
+    }
+    
+    .flex-nav a {
+        background-color: #50C878;
+    }
+    
+    .hidden {
+        display: none !important;
+    }
+    
+    .p-item {
+        display: flex;
+        padding: 5px;
+        text-align: center;
+        margin: auto;
+        background-color: seagreen;
+        border: 5px dotted black;
+        border-radius: 5px, 5px, 5px, 5px;
+        color: gold;
+        max-width: 3in;
+        max-height: 3in;
+    }
+    
+    .account-link {
+        display: flex;
+        position: absolute;
+        background-color: #50C878;
+        border: 5px groove black;
+        border-radius: 5px, 5px, 5px, 5px;
+        color: gold;
+        text-align: center;
+    }
+    
+    .btn {
+        background-color: #50C878;
+        border: 3px solid gold;
+        color: gold;
+        margin: auto;
+        margin-top: 10px;
+        width: 1in;
+    }
+    
+    .padding-top {
+        padding-top: 18px;
+    }
+    
+    .dropDown a {
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: space-around;
+        margin: auto;
+        text-decoration: none;
+        color: gold;
+        border: gold solid 4px;
+        width: 3in;
+        background-color: #50c878;
+    }
+    
+    .dropDown a:hover {
+        text-decoration: underline;
+    }
+    
+    .animation {
+        font-family: arial black;
+        font-size: 3em;
+        background-image: linear-gradient(to right, gold, #50C878, orange, gold);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: rainbow-animation 85s linear infinite;
+    }
+    
+    @keyframes rainbow-animation {
+        to {
+            background-position: 4500vh;
+        }
+    }
